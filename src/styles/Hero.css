@@ -1,0 +1,30 @@
+.hero {
+  background: #f9f9f9;
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.image-gallery {
+  display: flex;
+  overflow: hidden; /* Hide the scrollbar */
+  gap: 1rem; /* Add spacing between images */
+  padding: 1rem;
+  scroll-snap-type: x mandatory; /* Enable snap scrolling */
+  max-width: 100%; /* Ensure it doesn't exceed the screen width */
+  box-sizing: border-box; /* Include padding in width calculation */
+  position: relative;
+}
+
+.image-gallery img {
+  height: 150px; /* Adjust height as needed */
+  border-radius: 0.5rem;
+  flex-shrink: 0; /* Prevent images from shrinking */
+  scroll-snap-align: center; /* Snap images to the center */
+  max-width: 100%; /* Ensure images are responsive */
+  object-fit: cover; /* Maintain aspect ratio */
+}

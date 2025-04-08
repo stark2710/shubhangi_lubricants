@@ -1,0 +1,59 @@
+/* Center the section and add spacing */
+.section {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* Style the section heading */
+.section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+/* Center the cards container */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  justify-content: center; /* Center the cards */
+  margin: 0 auto; /* Add auto margins for centering */
+  max-width: 1200px; /* Limit the width of the cards container */
+}
+
+/* Style individual cards */
+.card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add hover effect to cards */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the icons inside the cards */
+.card i {
+  font-size: 3rem; /* Adjust icon size */
+  color: #333; /* Icon color */
+  margin-bottom: 1rem; /* Space between icon and title */
+}
+
+/* Change icon color on hover */
+.card:hover i {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Style the card titles */
+.card h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}

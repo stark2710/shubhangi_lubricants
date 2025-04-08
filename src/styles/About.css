@@ -1,0 +1,35 @@
+/* Section styling */
+.about-section {
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 2rem 1rem; /* Add spacing around the section */
+    text-align: center; /* Center align the content */
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 800px; /* Limit the width */
+    margin: 2rem auto; /* Center the section horizontally */
+  }
+  
+  /* Title styling */
+  .about-title {
+    font-family: 'Barlow', sans-serif; /* Use Barlow font */
+    font-size: 2rem; /* Larger font size for the title */
+    font-weight: 700; /* Bold font weight */
+    margin-bottom: 1rem; /* Add spacing below the title */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Description styling */
+  .about-description {
+    font-family: 'Barlow', sans-serif; /* Use Barlow font */
+    font-size: 1.1rem; /* Slightly larger font size for readability */
+    font-weight: 400; /* Regular font weight */
+    line-height: 1.8; /* Increase line height for better readability */
+    color: #555; /* Medium-dark text color */
+    margin-bottom: 1rem; /* Add spacing between paragraphs */
+  }
+  
+  /* Highlight important text */
+  .about-description strong {
+    color: #007bff; /* Highlight important text in blue */
+    font-weight: 700; /* Make it bold */
+  }
